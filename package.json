@@ -4,15 +4,14 @@
   "description": "a js quickstart project",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "nodemon ./index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kredenac/js-template.git"
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.3.0"
   },
-  "keywords": [
-    "js",
-    "template",
-    "quickstart"
-  ]
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }

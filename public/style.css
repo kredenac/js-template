@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.background {
+    background-image: url(./img/clouds.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.blur {
+    background: rgba(255, 255, 255, 0.0);
+    backdrop-filter: blur(8px);
+    height: 100vh;
+    width: 100vw;
+    float: left;
+    position: absolute;
+    z-index: 1;
+}
+
+main {
+    position: absolute;
+    padding: 100px 0 0 100px;
+    z-index: 10;
+}
+
+body {
+    margin: 0;
+}
+
+.messages {
+    overflow-y: auto;
+    background-color: rgb(28, 26, 32, 0.4);
+    min-height: 100px;
+    max-height: 300px;
+    width: 400px;
+    border-radius: 8px;
+}
+
+.message {
+    border-radius: 5px;
+    background-color:rgba(36, 36, 36, 0.4);
+    margin: 10px;
+    padding: 2px 10px 4px 10px;
+    display: inline-block;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 11px;
+    height: 11px;
+}
+
+::-webkit-scrollbar-button {
+    width: 11px;
+    height: 11px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 9px none #ffffff;
+    border-radius: 48px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b5b5b5;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #787878;
+}
+
+::-webkit-scrollbar-track {
+    background: #666666;
+    border: 7px none #ffffff;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #666666;
+}
+
+::-webkit-scrollbar-track:active {
+    background: #333333;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png"
+        href="https://statics.teams.cdn.office.net/hashedassets/favicon/prod/favicon-32x32-0b158ae.png" />
+    <link rel="icon" type="image/png"
+        href="https://statics.teams.cdn.office.net/hashedassets/favicon/prod/favicon-16x16-6c21d37.png" />
+    <link rel="icon" type="image/png"
+        href="https://statics.teams.cdn.office.net/hashedassets/favicon/prod/favicon-96x96-40c574c.png" />
+    <link rel="shortcut icon" type="image/x-icon"
+        href="https://statics.teams.cdn.office.net/hashedassets/favicon/prod/favicon-9e2b8f1.ico" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    </script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="js/main.js" defer></script>
+</head>
+
+<body>
+    <div class="background">
+        <div class="blur">
+        </div>
+        <main class='main'>
+            <h1>😃 Hello! 🚀</h1>
+            <label for="blurWidth">Percent width blurred</label>
+            <br>
+            <input type="range" id="blurWidth" name="blurWidth" min="0" max="100">
+            <br>
+            <label for="blurIntensity">Blur intensity</label>
+            <br>
+            <input type="range" id="blurIntensity" name="blurIntensity" min="0" max="20">
+            <br>
+            <div id='chat' class="messages">
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
