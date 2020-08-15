@@ -1,1 +1,1 @@
-This is intended to be used as a quickstart base for js web apps.
+Quickstart base for js web apps.
